@@ -27,13 +27,13 @@ namespace Evaisa.ThirdPersonToggle
         private readonly float height = 1.5f;
         private readonly float defaultDistance = 3f;
         private float currentDistance;
-        private readonly float minDistance = 1f;
-        private readonly float maxDistance = 10f;
+        private readonly float minDistance = 2f;
+        private readonly float maxDistance = 4f;
         private readonly float zoomSpeed = 1f;
         private readonly float lerpRate = 5f;
         private readonly float turnSpeed = 720f;
-        private readonly float clipRadius = 0.2f;
-        private readonly float clipBuffer = 0.1f;
+        private readonly float clipRadius = 0.06f;
+        private readonly float clipBuffer = 0.03f;
         private readonly LayerMask clipMask = LayerMask.GetMask("Terrain", "Map");
 
         void Awake()
